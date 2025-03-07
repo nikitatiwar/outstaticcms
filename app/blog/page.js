@@ -133,7 +133,6 @@ export default function Blog() {
               <Link href="#"
                    className="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 inline-block">
                     Can coffee make you a better developer?
-
                 </Link>
               <p className="text-gray-700 text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -295,8 +294,7 @@ className="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 inline-blo
               </p>
               <Link href="#"
                   className="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 inline-block">
-                    Can coffee make you a better developer?
-              
+                    Can coffee make you a better developer?             
                 </Link>
               <p className="text-gray-700 text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -313,13 +311,11 @@ className="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 inline-blo
                       width={40}
                       height={40}
                     />
- 
                 </Link>
               <div className="text-sm">
               <Link href="#"
                     className="text-gray-900 font-semibold leading-none hover:text-indigo-600">
                       Jonathan Reinink
-
                   </Link>
                 <p className="text-gray-600">Aug 18</p>
               </div>
@@ -349,11 +345,9 @@ className="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 inline-blo
                 </svg>
                 Members only
               </p>
-              <Link href="#"
-                
+              <Link href="#"          
                 className="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 inline-block">
                 Can coffee make you a better developer?
-
               </Link>
               <p className="text-gray-700 text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.

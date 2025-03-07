@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from "react";
-import Link from "next/link";
+// import Link from "next/link";
 
 const Success = () => {
   const AdminUrl = process.env.NEXT_PUBLIC_ADMIN_URL;

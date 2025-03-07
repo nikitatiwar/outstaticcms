@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Link from "next/link";
 
@@ -25,7 +23,7 @@ const Pending = () => {
 
           {/* Back to Home Button */}
           <div className="mt-8">
-            <Link href="/home" className="inline-block px-8 py-4 text-lg font-semibold text-white transition-colors duration-200 bg-green-600 rounded-lg hover:bg-green-700">
+            <Link href="/homepage" className="inline-block px-8 py-4 text-lg font-semibold text-white transition-colors duration-200 bg-green-600 rounded-lg hover:bg-green-700">
               Try Again
             </Link>  
           </div>

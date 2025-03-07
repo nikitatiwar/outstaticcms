@@ -109,7 +109,7 @@ export default function Header() {
 
             {/* Log In and Get Started buttons inside mobile menu */}
             <div className="space-y-2">
-              <Link href={"/AdminUrl"}
+              <Link href={AdminUrl}
               className="block rounded-md text-center text-base sm:text-xl lg:text-base font-medium text-[#2c3f7c] transition">
                 Log In
               </Link>
@@ -124,11 +124,3 @@ export default function Header() {
     </Disclosure>
   );
 }
-// const Login=()=>{
-//     return(
-//         <div>
-//             <h1>My header page in naxt js</h1>
-//         </div>
-//     )
-// }
-// export default Login;

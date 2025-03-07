@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Heroimage from './assets/images/Herothree.avif';
+import Heroimage from './assets/images/Herothree.jpg';
 
 function Hero() {
   return (

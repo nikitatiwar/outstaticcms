@@ -57,7 +57,7 @@ const FAQ = () => {
       </div>
     </div>
   
-    <div className="pt-4 pb-10 lg:py-24 max-w-7xl mx-auto md:grid grid-cols-[1fr,3fr] gap-12 sm:px-8 lg:px-0">
+    <div className="pt-4 pb-10 lg:py-24 max-w-7xl mx-auto md:grid grid-cols-[1fr_3fr] gap-12 sm:px-8 lg:px-0">
       <div className="flex flex-col text-left p-4 sm:p-0 sm:pb-8 md:pb-0">
       <ul className="border-l border-l-[#d2d5d9] text-base">
         <li className="py-2 pl-4">
@@ -78,7 +78,7 @@ const FAQ = () => {
         </li>
       </ul>
       </div>
-   <div>   
+ <div>
     <div className="shadow-[0_0.375em_2.8125em_0_#d2d5d9] m-4 mb-6 sm:mb-4 sm:m-0 rounded-lg pb-6" id="plansPricing">  
      <div className="px-8 pt-6">
      <h2 className="text-2xl text-gray-700">Plans and Pricing</h2>
@@ -156,7 +156,7 @@ const FAQ = () => {
               <div ref={(el) => faqRefs.current[index] = el} id={`faq-content-first-${index}`} className="pb-5 leading-relaxed">
                 <div className="space-y-2 leading-relaxed text-gray-600">{item.answer}</div>
               {item.btn ? (
-            <Link href="/pricing"
+            <Link href={"/pricing"}
               className="inline-block rounded bg-green-600 mt-2 px-6 py-2 text-sm font-medium text-white transition hover:bg-green-700 focus:outline-none">
              {item.btn}
             </Link> 
@@ -559,7 +559,7 @@ const FAQ = () => {
         ))}
       </ul>
       </div> 
-      </div> 
+      </div>
       <div className="shadow-[0_0.375em_2.8125em_0_#d2d5d9] m-4 mb-6 sm:mb-4 sm:mt-10 sm:m-0 rounded-lg">  
      <div className="px-8 pt-6">
      <h2 className="text-2xl text-gray-700">Devices</h2>
@@ -723,7 +723,7 @@ const FAQ = () => {
               <div id={`faq-content-eighth-${index}`} className="pb-5 leading-relaxed">
                 <div className="space-y-2 leading-relaxed text-gray-600">{item.answer}</div>
                 {item.btn ? (
-            <Link href="/pricing"
+            <Link href={"/pricing"}
               className="inline-block mt-2 rounded bg-green-600 px-6 py-2 text-sm font-medium text-white transition hover:bg-green-700 focus:outline-none">
              {item.btn}
             </Link> 
@@ -735,7 +735,8 @@ const FAQ = () => {
       </ul>
       </div> 
       </div> 
-      <div className="bg-[#BFD7ED] mt-10 px-5 py-4 text-center">Can’t find the answer you’re looking for? Visit our <Link
+      <div className="bg-[#BFD7ED] mt-10 px-5 py-4 text-center">Can’t find the answer you’re looking for? Visit our 
+      <Link
               href={"/troubleshooting"}
               className="inline-block rounded ml-2 bg-[#2c3f7c] px-6 py-2 text-base font-medium text-white transition hover:bg-blue-500 focus:outline-none"
             >
@@ -750,4 +751,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default FAQ

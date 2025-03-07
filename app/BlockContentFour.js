@@ -22,7 +22,7 @@ function BlockContentFour() {
                 <h3 className="text-xl font-medium text-gray-800 mb-2">FAQs </h3>
                 <p className="text-gray-700 text-base mb-2">Find answers to our more frequently asked questions</p>
                 <div className="flex items-center">   
-                <Link href={"/faq"} className="mr-1">Read More</Link>
+                <span className="mr-1">Read More</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
               <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
               </svg>
@@ -37,14 +37,14 @@ function BlockContentFour() {
                 src={Building}
                 alt="Coffee"
                 className="w-full h-64 object-cover rounded-2xl"
-              />
+              />  
               <div className="p-6">
                 <h3 className="text-xl font-medium text-gray-800 mb-2">Creating your first certificate</h3>
                 <p className="text-gray-700 text-base mb-2">
                 Walk through creating your first certificate step-by-step
                 </p>
               <div className="flex items-center">  
-                <Link href={"https://youtube.com/watch?v=9FfYOi9ApyU"} className="mr-1">Watch now</Link>
+                <span href={"https://youtube.com/watch?v=9FfYOi9ApyU"} className="mr-1">Watch now</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
               <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
               </svg>
@@ -64,7 +64,7 @@ function BlockContentFour() {
                 <h3 className="text-xl font-medium text-gray-800 mb-2">TBD TITLE FOR BLOG ARTICLE </h3>
                 <p className="text-gray-700 text-base mb-2">Filler Copy </p>
                 <div className="flex items-center">  
-                <Link href={"/blog"} className="mr-1">Read More</Link>
+                <span className="mr-1">Read More</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
               <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
               </svg>

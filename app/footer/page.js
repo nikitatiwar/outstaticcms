@@ -1,17 +1,16 @@
-"use client";
 import Link from "next/link"; 
 import Image from 'next/image';
 import logo from "../assets/images/logo.svg"; 
 
 function Footer() {
-  const handleScrollToTop = () => {
+  // const handleScrollToTop = () => {
     
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'smooth',
-    });
-  };
+  //   window.scrollTo({
+  //     top: 0,
+  //     left: 0,
+  //     behavior: 'smooth',
+  //   });
+  // };
     return (
 <footer className="bg-[#F8F8F8]">
   <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-12 sm:px-6 lg:px-0 lg:pt-16">
@@ -37,16 +36,13 @@ function Footer() {
             <li>
               <Link href="/about"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-             onClick={handleScrollToTop}
               >
                ABOUT
               </Link>
             </li>
-
             <li>
               <Link href="/contact"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                onClick={handleScrollToTop}
               >
                 CONTACT US
               </Link>
@@ -60,7 +56,6 @@ function Footer() {
             <li>
               <Link href="/pricing"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                 onClick={handleScrollToTop}
               >
                Plans & Pricing
               </Link>
@@ -69,7 +64,6 @@ function Footer() {
             <li>
               <Link href="/PAT"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                 onClick={handleScrollToTop}
               >
                 Portable Appliance Testing (PAT)
               </Link>
@@ -78,7 +72,6 @@ function Footer() {
             <li>
               <Link href="/EICR"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                 onClick={handleScrollToTop}
               >
                Electrical Installation Condition Report (EICR)
               </Link>
@@ -86,7 +79,6 @@ function Footer() {
             <li>
               <Link href="/EIC"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                 onClick={handleScrollToTop}
               >
                Electrical Installation Certificate (EIC)
               </Link>
@@ -94,7 +86,6 @@ function Footer() {
             <li>
               <Link href="/MWC"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                 onClick={handleScrollToTop}
               >
                Minor Works Certificates (MWC)
               </Link>
@@ -102,7 +93,6 @@ function Footer() {
             <li>
               <Link href="/ELC"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                 onClick={handleScrollToTop}
               >
                Emergency Lighting Certificate 
               </Link>
@@ -110,7 +100,6 @@ function Footer() {
             <li>
               <Link href="/FAC"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                 onClick={handleScrollToTop}
               >
                Fire Alarm Certificate
               </Link>
@@ -118,7 +107,6 @@ function Footer() {
             <li>
               <Link href="/GSC"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                 onClick={handleScrollToTop}
               >
                CP12 Gas Safety Certificate (GSC)
               </Link>
@@ -126,7 +114,6 @@ function Footer() {
             <li>
               <Link href="/LRA"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                 onClick={handleScrollToTop}
               >
                Legionella Risk Assessment (LRA)
               </Link>
@@ -140,7 +127,6 @@ function Footer() {
             <li>
               <Link href="/faq"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                 onClick={handleScrollToTop}
               >
               FAQs
               </Link>
@@ -149,7 +135,6 @@ function Footer() {
             <li>
               <Link href="/troubleshooting"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                 onClick={handleScrollToTop}
               >
                 Troubleshooting
               </Link>
@@ -174,7 +159,6 @@ function Footer() {
             <li>
               <Link href="/blog"
                 className="transition text-[#2c3f7c] hover:text-blue-500"
-                 onClick={handleScrollToTop}
               >
                Blog
               </Link>

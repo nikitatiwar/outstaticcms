@@ -1,5 +1,6 @@
-import Header from "../header/page"
-import Footer from "../footer/page"
+"use client";
+import Header from "../header/page";
+import Footer from "../footer/page";
 export default function Privacy() {
    return (
     <div>

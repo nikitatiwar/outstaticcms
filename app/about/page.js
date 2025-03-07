@@ -1,6 +1,5 @@
 'use client';
-
-import Aboutimage from "../assets/images/About.avif";
+import Aboutimage from "../assets/images/About.jpg";
 import Aboutimageone from "../assets/images/Aboutimageone.jpeg";
 import Image from "next/image";
 import Header from '../header/page';
@@ -217,7 +216,7 @@ function About() {
               </div>
               <div className="mt-10 flex items-center gap-x-6">
                 <Link href="#"
-                  className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">     
+                  className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"> Start for free    
                 </Link>
                 <Link href="#"
                   className="text-sm font-semibold leading-6 text-gray-700">

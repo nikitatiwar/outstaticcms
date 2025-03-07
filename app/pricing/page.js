@@ -1,4 +1,4 @@
-"use client"; // Ensure this is a client component
+"use client";
 
 import Header from '../header/page';
 import Footer from '../footer/page';
@@ -282,7 +282,7 @@ function BlockContentOne() {
                   </div>
                 </div>
                 {loading ? (
-           <div class="mx-auto w-12 h-12 rounded-full animate-spin
+           <div className="mx-auto w-12 h-12 rounded-full animate-spin
            border-2 border-solid border-blue-500 border-t-transparent"></div>
 
           ) : (  

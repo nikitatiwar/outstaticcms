@@ -56,7 +56,7 @@ const TroubleShooting = () => {
       </div> */}
     </div>
   
-    <div className="pt-4 pb-10 lg:py-24 max-w-7xl mx-auto md:grid grid-cols-[1fr,3fr] gap-12 sm:px-8 lg:px-0">
+    <div className="pt-4 pb-10 lg:py-24 max-w-7xl mx-auto md:grid grid-cols-[1fr_3fr] gap-12 sm:px-8 lg:px-0">
       <div className="flex flex-col text-left p-4 sm:p-0 sm:pb-8 md:pb-0">
       <ul className="border-l border-l-[#d2d5d9] text-base">
         <li className="py-2 pl-4">
