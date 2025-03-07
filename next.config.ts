@@ -10,6 +10,8 @@ const nextConfig = {
   images: {
     domains: ["tailwindcss.com","images.pexels.com"], // Allow images from tailwindcss.com
   },
+  swcMinify: false
+
 };
 
 module.exports = nextConfig;
