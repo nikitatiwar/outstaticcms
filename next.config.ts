@@ -6,16 +6,20 @@ import type { NextConfig } from "next";
 
 // export default nextConfig;
 /** @type {import('next').NextConfig} */
-const nextConfig: NextConfig = {
+const nextConfig = {
   images: {
     domains: ["tailwindcss.com","images.pexels.com"], // Allow images from tailwindcss.com
   },
-  swcMinify: false
-
+  experimental: {
+    appDir: true, // Enable for Next.js App Router support (if applicable)
+  },
 };
+
 
 module.exports = nextConfig;
-module.exports = {
-  reactStrictMode: true,
-  experimental: { appDir: true },
-};
+// module.exports = {
+//   reactStrictMode: true,
+//   experimental: {
+//     appDir: true,
+//   },
+// };
