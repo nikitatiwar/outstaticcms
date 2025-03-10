@@ -11,7 +11,7 @@ const nextConfig = {
     domains: ["tailwindcss.com","images.pexels.com"], // Allow images from tailwindcss.com
   },
   experimental: {
-    appDir: true, // Enable for Next.js App Router support (if applicable)
+    // appDir: true, // Enable for Next.js App Router support (if applicable)
   },
 };
 

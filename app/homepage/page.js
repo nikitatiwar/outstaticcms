@@ -12,7 +12,7 @@ const Footer = dynamic(() => import("../footer/page"));
 
 export default function HomePage() {
   useEffect(() => {
-    if (typeof window !== "undefined") {
+    {
       window.scrollTo(0, 0);
     }
   }, []);
