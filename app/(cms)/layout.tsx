@@ -11,6 +11,7 @@
 //       </html>
 //     )
 //   }
+
 export const metadata = {
   title: 'Outstatic'
 }
@@ -22,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body id="">{children}</body>
+      <body id="outstatic">{children}</body>
     </html>
   )
 }
