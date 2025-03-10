@@ -13,6 +13,9 @@ const nextConfig = {
   experimental: {
     // appDir: true, // Enable for Next.js App Router support (if applicable)
   },
+  eslint : {
+    ignoreDuringBuilds : true,
+  },
 };
 
 

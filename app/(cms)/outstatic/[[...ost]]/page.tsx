@@ -1,6 +1,10 @@
-import 'outstatic/outstatic.css'
-import { Outstatic } from 'outstatic'
-import { OstClient } from 'outstatic/client'
+"use client";
+import 'outstatic/outstatic.css';
+import { Outstatic } from 'outstatic';
+// import { OstClient } from 'outstatic/client';
+import dynamic from 'next/dynamic';
+
+const OstClient = dynamic(() => import('outstatic/client'), { ssr: false });
 
 export default async function Page(props: { params: Promise<{ ost: string[] }> }) {
   const params = await props.params;
