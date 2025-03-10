@@ -392,3 +392,11 @@
 //     </div>   
 //   )
 // }
+export default function Userform() {
+  return (
+    <div>
+      <h1>Pricing</h1>
+      <p>This is the userform page.</p>
+    </div>
+  );
+}

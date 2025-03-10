@@ -2,6 +2,7 @@
   "name": "mynextjs",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -22,6 +23,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9.21.0",
+    "eslint-plugin-react": "^7.37.4",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
